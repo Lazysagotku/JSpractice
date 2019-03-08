@@ -1,0 +1,17 @@
+{
+  "name": "jsjqueryajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "path": "^0.12.7"
+  }
+}

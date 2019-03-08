@@ -1,0 +1,21 @@
+<h2>Man List</h2>
+
+<ul>
+
+{{#each manQueue as |human|}}
+    <li>{{human.name}} <b>{{human.famil}}</b></li>
+{{/each}}
+
+</ul>
+
+<hr>
+
+<form class='' action="add" method="post">
+    <label for="">Name: </label>
+    <input type="text" name="name" value="">
+    <br>
+    <label for="">Famil: </label>
+    <input type="text" name="famil" value="">
+    <br>
+    <button type="submit" name="button">ADD PERSON</button>
+</form>

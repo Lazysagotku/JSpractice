@@ -1,0 +1,20 @@
+{
+  "name": "jspost",
+  "version": "1.0.0",
+  "description": "express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [
+    "express.js",
+    "node"
+  ],
+  "author": "Ivan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
